@@ -12,3 +12,6 @@ button{
     background-color: aqua;
     color: black;
 }
+#myId p{
+    color: green;
+}
