@@ -237,7 +237,7 @@ console.log(myString.length);
 let lastChar= myString.length;
 console.log(myString.charAt(myString.length-1))
 console.log(myString.charAt(myString.length-2))
-*/
+
 
 let num=6271;
 let count=0;
@@ -247,5 +247,5 @@ while(num>0){
 }
 console.log(count);
 
-
+*/
 
