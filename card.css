@@ -1,0 +1,28 @@
+.pro{
+   margin: 50px;
+  border: 1px solid black;
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rosybrown;
+  box-shadow: 1px 1px 10px black;
+  transition: box-shadow 1s ease-in 0;
+}
+.img{
+    width: 270px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+.pro:hover{
+    box-shadow: 5px 5px 20px black;
+    
+}
+.name{
+    padding-left: 10px;
+}
+.name:hover{
+    color: whitesmoke;
+    box-shadow: 1px 1px 10px beige;
+}
