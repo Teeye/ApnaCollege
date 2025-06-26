@@ -1,0 +1,88 @@
+*{
+    font-family: Georgia;
+}
+#inner1{
+    display: flex;
+   align-items: baseline;
+   margin-left: 20px;
+}
+.div1:hover{
+    border: 1px solid gray;
+    background-color: gainsboro;
+     
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+.h2{
+    line-height: 1.5px;
+}
+p{
+    font-size: 17px;
+}
+#logo{
+    display: flex;
+    margin-left: 25px;
+    
+}
+
+#wiki{
+    margin-left: 10px;
+}
+input{
+    width: 150px;
+}
+button{
+    margin-left: -10px;
+}
+.spans{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 114, 182);
+    padding-left: 10px;
+}
+.spans:hover{
+    text-decoration: underline;
+}
+
+.div4{
+    margin-left: auto;
+}
+#content{
+    display: list-item;
+    line-height: 30px;
+}
+.spanss{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 114, 182);
+    padding-left: 10px;
+    line-height: 40px;
+}
+.spanss:hover{
+    text-decoration: underline;
+}
+.avg{
+    margin-left: 30px;
+}
+.avgg{
+   display: flex;
+   justify-content: flex-end;
+   justify-content: space-evenly;
+}
+#inner2{
+    display: flex;
+}
+.jpg{
+    height: 300px;
+    width: 200px;
+    padding: 30px;
+}
+.avgimg{
+    border: 1px solid black;
+    height: 600px;
+    
+}
+.para{
+    width: 600px;
+    padding: 20px;
+}
