@@ -1,3 +1,8 @@
+*{
+
+    box-sizing: border-box;
+}
+
 i{
     color: red;
 }
@@ -5,14 +10,27 @@ span{
     color: rgb(155, 113, 7)
 }
 .card{
+    /* width: 350px;
+  max-width: 90%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-sizing: border-box;*/
     width: 350px;
-    height: 450px;
+    height: 500px;
     border: 1px solid black;
     display: inline-block;
     margin: 50px;
     border-radius: 10px;
 }
 img{
+   /* width: 100%;
+  height: auto;
+  padding: 5px;
+  border-radius: 20px;*/
     width: 340px;
     height: 250px;
     padding: 5px;
@@ -23,12 +41,26 @@ img{
 }
 p{
     width: 330px;
-    height: 300px;
+    height: 250px;
     font-size: 13px;
     text-align: center;
    
 }
 .inner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+footer{
+    color: rgb(24, 88, 110);
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width:375px){
+    .inner{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card{
+        margin: 20px auto;
+    }
 }
