@@ -11,7 +11,7 @@
 .btn1 i{
     font-size: 30px;
     font-weight:700;
-    position: absolute;
+    position: absolute; 
     left: 10px;
     line-height: 60px;
     cursor: pointer;
@@ -27,7 +27,7 @@
     cursor: pointer;
     transition: all 0.3s linear;
 }
-.sidebar{
+.sidebars{
     position: fixed;
    left: -300px;
     width: 300px;
