@@ -1,3 +1,97 @@
+//Qs 1
+let num=8;
+if(num%10==0){
+    console.log("good");
+}
+else{
+    console.log("bad");
+}
+
+//Qs 2
+/*
+let name=prompt("enter your name: ");
+let age=prompt("enter your age: ");
+let result=`${name} is ${age} years old `;
+console.log(alert(result));
+*/
+
+//Qs 3
+let quarter=5;
+switch(quarter){
+    case 1:
+        console.log("Months in Quarter 1: January, February, March");
+        break;
+    case 2:
+        console.log("Months in Quarter 2: April, May, June");
+        break;
+    case 3:
+        console.log("Months in Quarter 3: July, August, September");
+        break;
+    case 4:
+        console.log("Months in Quarter 4: October, November, December");
+        break;
+    default:
+        console.log("No months in this Quarter");
+}
+
+//Qs  4
+let str="Bapples";
+if((str[0]=='a'|| str[0]=='A') && str.length>5){
+    console.log("golden string");
+}
+else{
+    console.log("not a golden string");
+}
+
+//Qs 5
+let a=3;
+let b=5;
+let c=1;
+if(a>b && a>c){
+    console.log(`a ${a} is greater`);
+}
+else if(b>a && b>c){
+    console.log(`b ${b} is greater`);
+}
+else{
+    console.log(`c ${c} is greater`);
+}
+
+//Qs 6
+let num1=35;
+let num2=4785;
+if(num1%10==num2%10){
+    console.log(`${num1%10} is the same last digit for two numbers` );
+}
+else{
+    console.log(`is not the same last digit number`);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*const car={type:"yuzi", color:"black", weight:350, model:"suzuki",
 fullName: function(){
     return this.type +" "+ this.model;
