@@ -1,4 +1,4 @@
-//Qs 1
+/*//Qs 1
 let num=8;
 if(num%10==0){
     console.log("good");
@@ -8,12 +8,12 @@ else{
 }
 
 //Qs 2
-/*
+
 let name=prompt("enter your name: ");
 let age=prompt("enter your age: ");
 let result=`${name} is ${age} years old `;
 console.log(alert(result));
-*/
+
 
 //Qs 3
 let quarter=5;
@@ -34,7 +34,7 @@ switch(quarter){
         console.log("No months in this Quarter");
 }
 
-//Qs  4
+Qs  4
 let str="Bapples";
 if((str[0]=='a'|| str[0]=='A') && str.length>5){
     console.log("golden string");
@@ -43,7 +43,7 @@ else{
     console.log("not a golden string");
 }
 
-//Qs 5
+Qs 5
 let a=3;
 let b=5;
 let c=1;
@@ -57,7 +57,7 @@ else{
     console.log(`c ${c} is greater`);
 }
 
-//Qs 6
+Qs 6
 let num1=35;
 let num2=4785;
 if(num1%10==num2%10){
@@ -66,8 +66,72 @@ if(num1%10==num2%10){
 else{
     console.log(`is not the same last digit number`);
 }
+    function outerFunc(){
+    let x=5;
+    let y=3;
+    function innerFunc(){
+        console.log(x);
+    }
+    innerFunc();
+}
+    function multiGreet(func, n){
+    for(let i=1;i<=n;i++){
+        func();
+    }
+}
+let greet=function(){
+    console.log("hello!!");
+}
+multiGreet(greet,10);
+
+const cal={
+    num:55,
+    add:function(a,b){
+        return a+b;
+    },
+    sub:function(a,b){
+        return a-b;
+    },
+    mul:function(a,b){
+        return a*b;
+    }
+};
+
+let arr=[10,20,30,20,50,60];
+let result= arr.every( (el)=>(el%10==0));
+
+let num=[1,2,3,4,5,6,-1,0];
+let output=num.reduce( (min,el)=>{
+    if(el<min){
+        return el;
+    }else{
+        return min;
+    }
+});*/
 
 
+/*
+function oddEven(request){
+    if(request=="odd"){
+       let odd=function(n){
+   console.log(!(n%2==0));
+} 
+return odd;
+    }
+    else if(request=="even"){
+        let even=function(n){
+   console.log(n%2==0);
+}
+return even;
+    }
+    else{
+        console.log("wrong request");
+    }
+}
+let request="odd";
+*/
+
+let arr=[..."hello"];
 
 
 
